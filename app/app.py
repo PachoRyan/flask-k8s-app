@@ -6,6 +6,7 @@ from psycopg2.extras import RealDictCursor
 
 app = Flask(__name__)
 
+#Connection to PostgreSQL
 def get_db_connection():
     """Crear conexión a PostgreSQL"""
     try:
