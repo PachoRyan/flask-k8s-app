@@ -5,5 +5,3 @@ metadata:
   labels:
     app: flask-demo
     environment: development  # Etiqueta para identificar el entorno
-
-# Git branch PR
